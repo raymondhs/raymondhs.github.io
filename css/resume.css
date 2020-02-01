@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #dc3545;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -160,17 +160,28 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #DB4437 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #DB4437 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #DB4437;
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+ul.pubs li{
+  margin: 10px 0;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
 }
